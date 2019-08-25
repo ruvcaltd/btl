@@ -7,6 +7,7 @@ import {AddressProvider, WhereClause} from './AppServices';
 import Address from './Models/Address';
 import { generateId } from './Utils/Uuid';
 
+
 const initialState: AppState = new AppState();
 
 const save = (name:string, favFood:string) => {
